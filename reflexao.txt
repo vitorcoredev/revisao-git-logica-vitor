@@ -1,1 +1,2 @@
-
+A lógica dedutiva aparece no git porque cada comando segue uma premissa clara e gera um resultado previsivel. Exemplo: se eu modifico um arquivo, então o git status vai mostrar essa alteracao. Isso é uma relação lógica direta.
+Criar um branch representa decompor o trabalho: cada parte do projeto evolui separada, sem interferir no restante. É a mesma lógica de dividir um problema grande em partes menores, permitindo testar, ajustar e integrar só quando estiver pronto.
