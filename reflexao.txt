@@ -1,45 +1,23 @@
-A lógica dedutiva aparece no git porque cada comando segue uma premissa clara e gera um resultado previsivel. Exemplo: se eu modifico um arquivo, então o git status vai mostrar essa alteracao. Isso é uma relação lógica direta.
-Criar um branch representa decompor o trabalho: cada parte do projeto evolui separada, sem interferir no restante. É a mesma lógica de dividir um problema grande em partes menores, permitindo testar, ajustar e integrar só quando estiver pronto.
+
+A lógica dedutiva aparece no Git porque cada comando parte de uma premissa clara e produz um resultado previsível. Por exemplo: se eu modifico um arquivo, então o git status mostrará essa alteração. Essa é uma relação lógica direta. Criar um branch também representa uma forma de decompor o trabalho: cada parte do projeto evolui separadamente, sem interferir no restante. É a mesma ideia de dividir um problema grande em partes menores, o que permite testar, ajustar e integrar apenas quando estiver pronto.
 
 Resumo do log:
-O histórico do Git mostra claramente a ordem lógica das mudanças:
-primeiro o commit inicial no branch master, depois os commits feitos
-no branch desenvolvimento (reflexão 2 e análise do diff) e por fim o
-merge de volta para o master. Isso evidencia como o Git registra a
-sequência, a origem e a integração das alterações.
-
-
+O histórico do Git mostra claramente a ordem lógica das mudanças: primeiro o commit inicial no branch master, depois os commits feitos no branch desenvolvimento (reflexão 2 e análise do diff) e, por fim, o merge de volta para o master. Isso evidencia como o Git registra a sequência, a origem e a integração das alterações.
 
 1. Git e rastreabilidade
-
-A rastreabilidade é essencial porque permite saber **quem mudou o quê, quando e por quê**. Sem isso, projetos colaborativos viram caos: não existe histórico confiável, nem como investigar erros ou reverter algo.
-
-
+   A rastreabilidade é essencial porque permite saber quem mudou o quê, quando e por quê. Sem isso, projetos colaborativos se tornam caóticos, sem histórico confiável e sem como investigar erros ou reverter alterações.
 
 2. Branches e decomposição
+   Branches permitem dividir o desenvolvimento em partes menores e independentes, como ocorre no pensamento computacional, que decompõe problemas grandes em módulos controláveis. Assim, cada funcionalidade evolui isoladamente sem quebrar o projeto principal.
 
-Branches permitem **quebrar o desenvolvimento em partes menores e independentes**, como no pensamento computacional, que decompõe problemas grandes em módulos controláveis. Assim, cada funcionalidade evolui isoladamente sem quebrar o projeto.
+3. Registro de mudanças e sistematização lógica
+   O comando git commit cria um histórico organizado de alterações. Isso permite entender a evolução do projeto passo a passo, relacionando ações e resultados e evitando decisões desordenadas.
 
-
-
- 3. Registro de mudanças e sistematização lógica
-
-O `git commit` cria um histórico estruturado de alterações. Isso gera um **rastreamento lógico**, permitindo entender a evolução do projeto passo a passo, relacionando ações a resultados e evitando decisões desorganizadas.
-
-
-
-4. Dedução x indução
-
-* **Indução:** parte de casos específicos para tirar conclusões gerais — sempre prováveis, nunca garantidas.
-* **Dedução:** usa premissas aceitas como verdade para gerar conclusões válidas e garantidas.
-  A lógica é essencial em ciência e computação porque organiza hipóteses e modelos. Confundir dedução com generalização é um erro porque generalizar é induzir, não deduzir.
-
-
+4. Dedução e indução
+   Indução é quando partimos de casos específicos para chegar a conclusões gerais, que podem ser prováveis, mas não garantidas. Dedução utiliza premissas aceitas como verdade para gerar conclusões válidas e garantidas. A lógica é essencial em computação porque organiza hipóteses, testes e modelos. Confundir dedução com generalização é um erro, pois generalizar é uma forma de indução, não de dedução.
 
 5. Lógica computacional e Git
-
-* `git status`: faz uma análise lógica do estado atual dos arquivos, comparando com o último registro.
-* `git diff`: compara versões de forma direta e objetiva, sem prever nada.
-* `git log`: permite deduzir a evolução do projeto observando uma sequência estruturada de commits.
-* O Git funciona com **lógica dedutiva**: cada comando segue premissas claras e produz resultados previsíveis.
-
+   O git status faz uma análise lógica do estado dos arquivos, comparando com o último registro.
+   O git diff compara versões de maneira objetiva.
+   O git log permite deduzir a evolução do projeto observando uma sequência estruturada de commits.
+   O Git funciona com lógica dedutiva: cada comando segue premissas claras e produz resultados previsíveis.
